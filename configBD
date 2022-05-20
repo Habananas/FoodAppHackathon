@@ -1,0 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBpR7s6UgPJ8EyQTvk5H0CDiO2YK7YZC-8",
+    authDomain: "foodapphackathon.firebaseapp.com",
+    projectId: "foodapphackathon",
+    storageBucket: "foodapphackathon.appspot.com",
+    messagingSenderId: "495882243572",
+    appId: "1:495882243572:web:fb153da8322c2d99527da1",
+    measurementId: "G-CHMRPWDT56"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
